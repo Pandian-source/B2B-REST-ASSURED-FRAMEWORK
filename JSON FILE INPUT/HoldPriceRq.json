@@ -1,0 +1,54 @@
+{
+  "OfferPriceRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "1111111111",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "skyroute@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "1111111111",
+          "Name": "Skyroute B2B"
+        }
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "PassengerID": "T1",
+            "LoyaltyProgramAccount": [
+              {
+                "AirlineID": "EK",
+                "AccountNumber": "45677"
+              }
+            ],
+            "Individual": {
+              "Birthdate": "1997-08-19"
+            },
+            "PTC": "ADT"
+          }
+        ]
+      }
+    },
+    "Query": {
+      "Offer": [
+        {
+          "OfferID": "98136821632132866907530348"
+        }
+      ]
+    },
+    "MetaData": {
+      "TraceId": "161777799749"
+    },
+    "ShoppingResponseId": "1632132866187276599",
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "Skyroute B2B Portal"
+    }
+  }
+}

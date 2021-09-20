@@ -1,0 +1,97 @@
+{
+  "AirShoppingRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "Name": "kathir",
+          "IATA_Number": "",
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "kathir@gmail.com"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "CoreQuery": {
+      "OriginDestinations": {
+        "OriginDestination": [
+          {
+            "Departure": {
+              "AirportCode": "YYZ",
+              "Date": "2021-12-10"
+            },
+            "Arrival": {
+              "AirportCode": "YVR"
+            }
+          }
+        ]
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "PassengerID": "T1",
+            "PTC": "ADT",
+            "Individual": {
+              "Birthdate": "1997-08-19"
+            }
+          },
+          {
+            "PassengerID": "T2",
+            "PTC": "ADT"
+          }
+        ]
+      }
+    },
+    "Preference": {
+      "TripType": "ONEWAY",
+      "CabinType": "Y",
+      "FareType": [
+        "70J",
+        "749"
+      ],
+      "AdditionalCabinType": [],
+      "AlternateDays": 0,
+      "NoOfStops": "0",
+      "NearByAirports": "N",
+      "FreeBaggage": "N",
+      "CountryPreference": {
+        "ExcludeCountry": [],
+        "PreferedCountry": []
+      },
+      "AirlinePreference": {
+        "PreferedAirlines": ["WS"],
+        "ExcludeAirlines": []
+      },
+      "StopPreference": {
+        "PreferedStops": [],
+        "ExcludeStops": []
+      },
+      "Currency": "CAD",
+      "TicketingLimit": {
+        "From": "2021-04-07T07:35",
+        "To": "2021-05-07T07:35"
+      },
+      "Penalties": {
+        "ZeroChangeFee": "N",
+        "NoCancellationFee": "N",
+        "Refundable": "N",
+        "RebookingPossible": "N"
+      },
+      "RbdPreference": {
+        "PreferedRbds": [],
+        "ExcludeRbds": []
+      },
+      "MileageEligibilityFare": "",
+      "ExtraSeats": ""
+    },
+    "MetaData": {
+      "TraceId": "161777799749"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "AirTicketVoidRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "skyroute@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "Skyroute B2B"
+        }
+      }
+    },
+    "Query": {
+      "TicketNumber": [
+        "8389540936683",
+        "8389540936684"
+      ],
+      "NeedToCancelBooking": "Y",
+      "OrderID": "N1SFB8VT",
+      "GdsBookingReference": [
+        "DNHWLB"
+      ]
+    },
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "Skyroute B2B Portal"
+    }
+  }
+}

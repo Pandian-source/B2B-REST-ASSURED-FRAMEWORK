@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Runnerclass.Running">
+        <methods>
+          <include name="Holdconfirm"/>
+          <include name="Holdsearching"/>
+          <include name="Holdpricing"/>
+          <include name="Holdcreate"/>
+        </methods>
+      </class> <!-- Runnerclass.Running -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

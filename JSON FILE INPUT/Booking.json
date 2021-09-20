@@ -1,0 +1,185 @@
+{
+  "OrderCreateRQ": {
+    "ServiceListResponseId": "",
+    "Query": {
+      "Order": {
+        "Seat": [
+          {
+            "PassengerID": "ADT1",
+            "SeatId": ""
+          },
+          {
+            "PassengerID": "ADT1",
+            "SeatId": ""
+          }
+        ],
+        "Offer": [
+          {
+            "OfferID": "98136821632130004141189762"
+          }
+        ],
+        "ServiceList": []
+      }
+    },
+    "PromoCode": "",
+    "Payments": {
+      "Payment": [
+        {
+          "Type": "CHECK",
+          "PassengerID": "ALL",
+          "OnflyMarkup": "0.00",
+          "Amount": 429.22,
+          "ChequeNumber": "95636",
+          "OnflyDiscount": "0.00"
+        }
+      ]
+    },
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "kathir"
+    },
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "srilanakamrst@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "Pandian"
+        }
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "NameTitle": "Mr",
+            "PassengerID": "ADT1",
+            "LoyaltyProgramAccount": [
+              {
+                "AirlineID": "WS",
+                "ProgramID": "WS",
+                "AccountNumber": "Pandi342"
+              }
+            ],
+            "ContactInfoRef": "CTC1",
+            "FirstName": "Rajesh",
+            "LastName": "Mani",
+            "Gender": "Male",
+            "MiddleName": "",
+            "TravelDocument": [
+              {
+                "ExpiryDate": "2024-01-01",
+                "DocumentType": "P",
+                "DocumentNumber": "9658746",
+                "IssuingCountry": "CA"
+              }
+            ],
+            "PTC": "ADT",
+            "BirthDate": "1992-07-21"
+          },
+          {
+            "NameTitle": "Mr",
+            "PassengerID": "ADT2",
+            "LoyaltyProgramAccount": [
+              {
+                "AirlineID": "WS",
+                "ProgramID": "WS",
+                "AccountNumber": "Pandi3624"
+              }
+            ],
+            "ContactInfoRef": "CTC1",
+            "FirstName": "Ramesh",
+            "LastName": "Sathish",
+            "Gender": "Male",
+            "MiddleName": "",
+            "TravelDocument": [
+              {
+                "ExpiryDate": "2024-01-01",
+                "DocumentType": "P",
+                "DocumentNumber": "9658746",
+                "IssuingCountry": "CA"
+              }
+            ],
+            "PTC": "ADT",
+            "BirthDate": "1995-07-21"
+          }
+        ]
+      },
+      "ContactList": {
+        "ContactInformation": [
+          {
+            "AgencyName": "Pandian",
+            "Address": {
+              "StateProv": "AX",
+              "Street": [
+                "Chennai Taramani Street"
+              ],
+              "PostalCode": "600028",
+              "CityName": "chennai",
+              "CountryCode": "+91"
+            },
+            "PassengerContact": {
+              "Phone": {
+                "AreaCode": "",
+                "PhoneNumber": "9856325698",
+                "ContryCode": "CA"
+              },
+              "EmailAddress": "srilanakamrst@gmail.com"
+            },
+            "Phone": {
+              "AreaCode": "",
+              "PhoneNumber": "9854785465",
+              "ContryCode": "+91"
+            },
+            "ContactID": "CTC1",
+            "Mobile": {
+              "MobileNumber": "9854785465",
+              "ContryCode": "CA"
+            },
+            "EmailAddress": "srilanakamrst@gmail.com"
+          }
+        ]
+      }
+    },
+    "OfferResponseId": "1632130016010450695",
+    "MetaData": {
+      "Tracking": "Y",
+      "PassengerMetadata": {
+        "SpecialServiceRequest": [
+          {
+            "Origin": "YYZ",
+            "FreeText": "Pandian",
+            "Destination": "YVR",
+            "MarketingFlightNumber": "WS",
+            "PassengerID": "ADT1",
+            "DepartureDateTime": "2021-11-20",
+            "SsrCode": "Booking",
+            "MarketingCarrier": "WS",
+            "SsrType": "SSR"
+          },
+          {
+            "Origin": "YYZ",
+            "FreeText": "Pandian",
+            "Destination": "YVR",
+            "MarketingFlightNumber": "WS",
+            "PassengerID": "ADT2",
+            "DepartureDateTime": "2021-11-20",
+            "SsrCode": "FREE MEAL",
+            "MarketingCarrier": "WS",
+            "SsrType": "SSR"
+          }
+        ]
+      }
+    },
+    "PromoDiscount": 0,
+    "ShoppingResponseId": "1632130003617614795",
+    "BookingType": "BOOK",
+    "SeatResponseId": ""
+  }
+}

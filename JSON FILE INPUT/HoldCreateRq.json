@@ -1,0 +1,125 @@
+{
+  "OrderCreateRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "srilanakamrst@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "kathir"
+        }
+      }
+    },
+    "OfferResponseId": "1632132870560599430",
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "PassengerID": "ADT1",
+            "FirstName": "Harsh",
+            "Gender": "Male",
+            "MiddleName": "",
+            "OnflyDiscount": "0.00",
+            "NameTitle": "Mr",
+            "LoyaltyProgramAccount": [
+              {
+                "AirlineID": "WS",
+                "ProgramID": "WS",
+                "AccountNumber": "8349843875"
+              }
+            ],
+            "OnflyMarkup": "0.00",
+            "ContactInfoRef": "CTC1",
+            "LastName": "Singh",
+            "TravelDocument": [
+              {
+                "ExpiryDate": "2024-01-01",
+                "DocumentType": "P",
+                "DocumentNumber": "9658745",
+                "IssuingCountry": "CA"
+              }
+            ],
+            "PTC": "ADT",
+            "BirthDate": "1997-08-19"
+          }
+        ]
+      },
+      "ContactList": {
+        "ContactInformation": [
+          {
+            "AgencyName": "kathir",
+            "Address": {
+              "StateProv": "AX",
+              "Street": [
+                "Taramani chennai"
+              ],
+              "PostalCode": "123465",
+              "CityName": "chennai",
+              "CountryCode": "CA"
+            },
+            "PassengerContact": {
+              "Phone": {
+                "AreaCode": "",
+                "PhoneNumber": "9856325698",
+                "ContryCode": ""
+              },
+              "EmailAddress": "srilanakamrst@gmail.com"
+            },
+            "Phone": {
+              "AreaCode": "",
+              "PhoneNumber": "9854785465",
+              "ContryCode": "+91"
+            },
+            "ContactID": "CTC1",
+            "Mobile": {
+              "MobileNumber": "9854785465",
+              "ContryCode": "+91"
+            },
+            "EmailAddress": "srilanakamrst@gmail.com"
+          }
+        ]
+      }
+    },
+    "Query": {
+      "Order": {
+        "Offer": [
+          {
+            "OfferID": "98136821632132866907530348"
+          }
+        ]
+      }
+    },
+    "PromoCode": "",
+    "MetaData": {
+      "Tracking": "Y",
+      "PassengerMetadata": {
+        "SpecialServiceRequest": [
+          {
+            "Origin": "YYZ",
+            "FreeText": "Pandian",
+            "Destination": "YVR",
+            "MarketingFlightNumber": " ",
+            "PassengerID": "ADT1",
+            "DepartureDateTime": "2021-12-10",
+            "SsrCode": "Free Meals",
+            "MarketingCarrier": "WS",
+            "SsrType": "SSR"
+          }
+        ]
+      }
+    },
+    "ShoppingResponseId": "1632132866187276599",
+    "PromoDiscount": 0,
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "kathir"
+    },
+    "BookingType": "HOLD"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "OrderRetreiveRQ": {
+        "Document": {
+            "Name": "Wintlt NDC GATEWAY",
+            "ReferenceVersion": "1.0"
+        },
+        "Party": {
+            "Sender": {
+                "TravelAgencySender": {
+                    "Name": "Skyroute B2B Portal",
+                    "IATA_Number": "1111111111",
+                    "AgencyID": "Skyroute B2B Portal",
+                    "Contacts": {
+                        "Contact": [
+                            {
+                                "EmailContact": "skyroute@gmail.com"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Query": {
+            "OrderID": "MHIU9CZY",
+            "GdsBookingReference": ["QRDUFQ"]
+        }
+    }
+}

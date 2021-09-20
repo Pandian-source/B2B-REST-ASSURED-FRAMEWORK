@@ -1,0 +1,110 @@
+{
+  "OrderChangeRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "Skyroute B2B Portal",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "skyroute@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "1111111111",
+          "Name": "Skyroute B2B Portal"
+        }
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "NameTitle": "Mr",
+            "PassengerID": "ADT1",
+            "ContactInfoRef": "CTC1",
+            "Preference": {
+              "WheelChairPreference": {
+                "Reason": ""
+              },
+              "SeatPreference": "any"
+            },
+            "FirstName": "Harsh",
+            "attributes": {
+              "PassengerID": "ADT1"
+            },
+            "LastName": "Singh",
+            "MiddleName": "",
+            "TravelDocument": {
+              "ExpiryDate": "2024-01-01",
+              "DocumentType": "",
+              "DocumentNumber": "9658745",
+              "IssuingCountry": "CA"
+            },
+            "PTC": "ADT",
+            "BirthDate": "1997-08-19"
+          }
+        ]
+      },
+      "ContactList": {
+        "ContactInformation": [
+          {
+            "AgencyName": "kathir",
+            "Address": {
+              "StateProv": "AX",
+              "Street": [
+                "kovil Street"
+              ],
+              "PostalCode": "600028",
+              "CityName": "chennai",
+              "CountryCode": "CA"
+            },
+            "PassengerContact": {
+              "Phone": {
+                "AreaCode": "",
+                "PhoneNumber": "9856325698",
+                "ContryCode": ""
+              },
+              "EmailAddress": "srilanakamrst@gmail.com"
+            },
+            "Phone": {
+              "AreaCode": "",
+              "PhoneNumber": "9854785465",
+              "ContryCode": "+91"
+            },
+            "ContactID": "CTC1",
+            "Mobile": {
+              "MobileNumber": "9854785465",
+              "ContryCode": "+91"
+            },
+            "EmailAddress": "srilanakamrst@gmail.com"
+          }
+        ]
+      }
+    },
+    "Query": {
+      "OrderServicing": {
+        "AcceptOffer": {}
+      },
+      "OrderID": "DJ63VXPG",
+      "GdsBookingReference": [
+        "GGWCOG"
+      ]
+    },
+    "Payments": {
+      "Payment": [
+        {
+          "Type": "CHECK",
+          "PassengerID": "ALL",
+          "Amount": 127.15,
+          "ChequeNumber": "985632"
+        }
+      ]
+    },
+    "ShoppingResponseId": "1632132866187276599",
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "Wintlt NDC GATEWAY"
+    }
+  }
+}

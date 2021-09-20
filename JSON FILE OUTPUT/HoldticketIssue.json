@@ -1,0 +1,621 @@
+{
+    "OrderViewRS": {
+        "Document": {
+            "Name": "Clarity NDC GATEWAY",
+            "ReferenceVersion": "1.2"
+        },
+        "Party": {
+            "Sender": {
+                "TravelAgencySender": {
+                    "Name": "MRST",
+                    "IATA_Number": "",
+                    "AgencyID": "MRST",
+                    "Contacts": {
+                        "Contact": [
+                            {
+                                "EmailContact": "srilanakamrst@gmail.com"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ShoppingResponseId": "1632132866187276599",
+        "Success": {
+            
+        },
+        "Order": [
+            {
+                "OrderID": "DJ63VXPG",
+                "GdsBookingReference": "GGWCOG",
+                "NeedToTicket": "N",
+                "OfferID": "98136821632132866907530348",
+                "Owner": "WS",
+                "OwnerName": "Westjet",
+                "IsBrandedFare": "Y",
+                "BrandedFareOptions": [
+                    
+                ],
+                "CabinOptions": [
+                    
+                ],
+                "IsAdditionalCabinType": "N",
+                "Eticket": "",
+                "TimeLimits": {
+                    "OfferExpirationDateTime": "2021-09-20T12:25:11"
+                },
+                "BookingCurrencyCode": "CAD",
+                "EquivCurrencyCode": "CAD",
+                "HstPercentage": 5,
+                "RewardSettings": {
+                    "RewardAvailable": "N",
+                    "PointTypes": [
+                        
+                    ],
+                    "PointValues": {
+                        
+                    }
+                },
+                "BookingFeeInfo": {
+                    "FeeType": "",
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "TotalPrice": {
+                    "BookingCurrencyPrice": 126.85,
+                    "EquivCurrencyPrice": 126.85
+                },
+                "BasePrice": {
+                    "BookingCurrencyPrice": 45.56,
+                    "EquivCurrencyPrice": 45.56
+                },
+                "TaxPrice": {
+                    "BookingCurrencyPrice": 81.29,
+                    "EquivCurrencyPrice": 81.29
+                },
+                "Commission": {
+                    "AgencyCommission": {
+                        "BookingCurrencyPrice": 5,
+                        "EquivCurrencyPrice": 5
+                    },
+                    "AgencyYqCommission": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    }
+                },
+                "PortalCharges": {
+                    "Markup": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "Surcharge": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "Discount": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    }
+                },
+                "AgentMarkupInfo": {
+                    "OnflyMarkup": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "OnflyDiscount": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "OnflyHst": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "PromoDiscount": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0,
+                        "PromoCode": ""
+                    }
+                },
+                "Penalty": {
+                    "ChangeFee": {
+                        "Before": {
+                            "BookingCurrencyPrice": 110,
+                            "EquivCurrencyPrice": 110
+                        },
+                        "After": {
+                            "BookingCurrencyPrice": "NA",
+                            "EquivCurrencyPrice": "NA"
+                        }
+                    },
+                    "CancelationFee": {
+                        "Before": {
+                            "BookingCurrencyPrice": "NA",
+                            "EquivCurrencyPrice": "NA"
+                        },
+                        "After": {
+                            "BookingCurrencyPrice": "NA",
+                            "EquivCurrencyPrice": "NA"
+                        }
+                    }
+                },
+                "PaxSeatInfo": [
+                    
+                ],
+                "OfferItem": [
+                    {
+                        "OfferItemID": "OFFERITEMID1",
+                        "Refundable": "true",
+                        "PassengerType": "ADT",
+                        "PassengerQuantity": 1,
+                        "TotalPriceDetail": {
+                            "TotalAmount": {
+                                "BookingCurrencyPrice": 126.85,
+                                "EquivCurrencyPrice": 126.85
+                            }
+                        },
+                        "Service": [
+                            {
+                                "ServiceID": "SV1",
+                                "PassengerRefs": "ADT1",
+                                "FlightRefs": "Flight1"
+                            }
+                        ],
+                        "FareDetail": {
+                            "PassengerRefs": "ADT1",
+                            "Price": {
+                                "TotalAmount": {
+                                    "BookingCurrencyPrice": 126.85,
+                                    "EquivCurrencyPrice": 126.85
+                                },
+                                "BaseAmount": {
+                                    "BookingCurrencyPrice": 45.56,
+                                    "EquivCurrencyPrice": 45.56
+                                },
+                                "TaxAmount": {
+                                    "BookingCurrencyPrice": 81.28999999999999,
+                                    "EquivCurrencyPrice": 81.28999999999999
+                                },
+                                "Commission": {
+                                    "AgencyCommission": {
+                                        "BookingCurrencyPrice": 5,
+                                        "EquivCurrencyPrice": 5
+                                    },
+                                    "AgencyYqCommission": {
+                                        "BookingCurrencyPrice": 0,
+                                        "EquivCurrencyPrice": 0
+                                    }
+                                },
+                                "BookingFee": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalCharges": {
+                                    "Markup": {
+                                        "BookingCurrencyPrice": 0,
+                                        "EquivCurrencyPrice": 0
+                                    },
+                                    "Surcharge": {
+                                        "BookingCurrencyPrice": 0,
+                                        "EquivCurrencyPrice": 0
+                                    },
+                                    "Discount": {
+                                        "BookingCurrencyPrice": 0,
+                                        "EquivCurrencyPrice": 0
+                                    }
+                                },
+                                "Taxes": [
+                                    {
+                                        "TaxCode": "RC",
+                                        "BookingCurrencyPrice": 13.87,
+                                        "EquivCurrencyPrice": 13.87
+                                    },
+                                    {
+                                        "TaxCode": "SQ",
+                                        "BookingCurrencyPrice": 30,
+                                        "EquivCurrencyPrice": 30
+                                    },
+                                    {
+                                        "TaxCode": "CA",
+                                        "BookingCurrencyPrice": 7.12,
+                                        "EquivCurrencyPrice": 7.12
+                                    },
+                                    {
+                                        "TaxCode": "YQ",
+                                        "BookingCurrencyPrice": 30,
+                                        "EquivCurrencyPrice": 30
+                                    },
+                                    {
+                                        "TaxCode": "HST",
+                                        "BookingCurrencyPrice": 0.3,
+                                        "EquivCurrencyPrice": 0.3
+                                    }
+                                ]
+                            }
+                        },
+                        "FareComponent": [
+                            {
+                                "PriceClassRef": "PCR_1",
+                                "SegmentRefs": "Segment1",
+                                "FareBasis": {
+                                    "FareBasisCode": {
+                                        "Refs": "FG_1",
+                                        "Code": "LCUD0ZBI/CON"
+                                    },
+                                    "RBD": "E",
+                                    "CabinType": "Y",
+                                    "SeatLeft": "9"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "BaggageAllowance": [
+                    {
+                        "SegmentRefs": "Segment1",
+                        "PassengerRefs": "ADT1",
+                        "BaggageAllowanceRef": "Bag1"
+                    }
+                ],
+                "SplitPaymentInfo": [
+                    {
+                        "AirItineraryId": "98136821632132866907530348",
+                        "MultipleFop": "N",
+                        "MaxCardsPerPax": 0,
+                        "MaxCardsPerPaxInMFOP": 0
+                    }
+                ],
+                "BookingToEquivExRate": 1,
+                "FopRef": "FOP_9_9_368_482_WS_PRI"
+            }
+        ],
+        "DataLists": {
+            "PassengerList": {
+                "Passengers": [
+                    {
+                        "attributes": {
+                            "PassengerID": "ADT1"
+                        },
+                        "PassengerID": "ADT1",
+                        "PTC": "ADT",
+                        "BirthDate": "1997-08-19",
+                        "NameTitle": "Mr",
+                        "FirstName": "Harsh",
+                        "MiddleName": "",
+                        "LastName": "Singh",
+                        "TravelDocument": {
+                            "DocumentNumber": "9658745",
+                            "ExpiryDate": "2024-01-01",
+                            "IssuingCountry": "CA",
+                            "DocumentType": ""
+                        },
+                        "Preference": {
+                            "WheelChairPreference": {
+                                "Reason": ""
+                            },
+                            "SeatPreference": "any"
+                        },
+                        "LoyaltyProgramAccount": [
+                            {
+                                "ProgramID": "WS",
+                                "AirlineID": "WS",
+                                "AccountNumber": "8349843875"
+                            }
+                        ],
+                        "ContactInfoRef": "CTC1"
+                    }
+                ]
+            },
+            "DisclosureList": {
+                "Disclosures": [
+                    
+                ]
+            },
+            "FareList": {
+                "FareGroup": [
+                    {
+                        "FareGroupRef": "FG_1",
+                        "FareCode": "749",
+                        "FareBasisCode": "LCUD0ZBI/CON"
+                    }
+                ]
+            },
+            "FlightSegmentList": {
+                "FlightSegment": [
+                    {
+                        "SegmentKey": "Segment1",
+                        "Departure": {
+                            "AirportCode": "YYZ",
+                            "Date": "2021-12-10",
+                            "Time": "18:00:00",
+                            "AirportName": "Lester B. Pearson International Airport",
+                            "Terminal": {
+                                "Name": "3"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "YVR",
+                            "Date": "2021-12-10",
+                            "Time": "20:14:00",
+                            "AirportName": "Vancouver International Airport",
+                            "Terminal": {
+                                "Name": "M"
+                            }
+                        },
+                        "MarketingCarrier": {
+                            "AirlineID": "WS",
+                            "Name": "Westjet",
+                            "FlightNumber": "723"
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "WS",
+                            "Name": "Westjet",
+                            "FlightNumber": "723"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "Boeing 737-800 (winglets) pax",
+                            "Name": "Boeing 737-800 (winglets) pax"
+                        },
+                        "Code": {
+                            "MarriageGroup": ""
+                        },
+                        "FlightDetail": {
+                            "FlightDuration": {
+                                "Value": "5 Hrs 14 Min"
+                            },
+                            "Stops": {
+                                "Value": 0
+                            },
+                            "InterMediate": [
+                                
+                            ],
+                            "AirMilesFlown": "2085"
+                        },
+                        "BrandId": "BASIC"
+                    }
+                ]
+            },
+            "FlightList": {
+                "Flight": [
+                    {
+                        "FlightKey": "Flight1",
+                        "Journey": {
+                            "Time": "5 H 14 M",
+                            "Stops": 0
+                        },
+                        "SegmentReferences": "Segment1"
+                    }
+                ]
+            },
+            "OriginDestinationList": {
+                "OriginDestination": [
+                    {
+                        "OriginDestinationKey": "OD1",
+                        "DepartureCode": "YYZ",
+                        "ArrivalCode": "YVR",
+                        "FlightReferences": "Flight1"
+                    }
+                ]
+            },
+            "PriceClassList": {
+                "PriceClass": [
+                    {
+                        "PriceClassID": "PCR_1",
+                        "Name": "Basic",
+                        "Code": "Basic",
+                        "Descriptions": {
+                            "Description": [
+                                
+                            ]
+                        }
+                    }
+                ]
+            },
+            "BaggageAllowanceList": {
+                "BaggageAllowance": [
+                    {
+                        "BaggageAllowanceID": "Bag1",
+                        "BaggageCategory": "Checked",
+                        "AllowanceDescription": {
+                            "ApplicableParty": "Traveler",
+                            "Description": "CHECKED ALLOWANCE"
+                        },
+                        "PieceAllowance": {
+                            "ApplicableParty": "Traveler",
+                            "TotalQuantity": "0",
+                            "Unit": "Pieces"
+                        }
+                    }
+                ]
+            },
+            "FopList": [
+                {
+                    "CC": {
+                        "Allowed": "Y",
+                        "Types": {
+                            "AX": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "MC": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "VI": {
+                                "F": {
+                                    "BookingCurrencyPrice": "1",
+                                    "EquivCurrencyPrice": "1"
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 1,
+                                    "EquivCurrencyPrice": 1
+                                }
+                            },
+                            "JC": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "DC": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "DUS": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "MA": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "DI": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            }
+                        }
+                    },
+                    "DC": {
+                        "Allowed": "Y",
+                        "Types": {
+                            "MC": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "VI": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "RU": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            }
+                        }
+                    },
+                    "CASH": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "CHEQUE": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "ACH": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "PG": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "FopKey": "FOP_9_9_368_482_WS_PRI"
+                }
+            ]
+        },
+        "TicketDocInfos": {
+            "TicketDocInfo": [
+                {
+                    "TicketDocument": {
+                        "TicketDocNbr": "8389540936685",
+                        "Type": "TKT"
+                    },
+                    "PassengerReference": "ADT1",
+                    "GdsBookingReference": "GGWCOG"
+                }
+            ]
+        },
+        "MetaData": {
+            "PassengerMetadata": {
+                "SpecialServiceRequest": [
+                    {
+                        "PassengerID": "ADT1",
+                        "Origin": "YYZ",
+                        "Destination": "YVR",
+                        "DepartureDateTime": "2021-12-10",
+                        "MarketingFlightNumber": " ",
+                        "MarketingCarrier": "WS",
+                        "SsrType": "SSR",
+                        "SsrCode": "Free Meals",
+                        "FreeText": "Pandian"
+                    }
+                ]
+            }
+        }
+    }
+}

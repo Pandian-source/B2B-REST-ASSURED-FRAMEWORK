@@ -1,0 +1,30 @@
+{
+  "AirDocIssueRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "kathir@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "kathir"
+        }
+      }
+    },
+    "Query": {
+      "OrderID": "N1SFB8VT",
+      "GdsBookingReference": [
+        "DNHWLB"
+      ]
+    },
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "kathir"
+    }
+  }
+}

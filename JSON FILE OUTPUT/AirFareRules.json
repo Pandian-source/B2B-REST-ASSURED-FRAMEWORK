@@ -1,0 +1,44 @@
+{
+    "AirFareRulesRS": {
+        "Document": {
+            "Name": "Clarity NDC GATEWAY",
+            "ReferenceVersion": "1.2"
+        },
+        "Party": {
+            "Sender": {
+                "TravelAgencySender": {
+                    "Name": "MRST",
+                    "IATA_Number": "",
+                    "AgencyID": "MRST",
+                    "Contacts": {
+                        "Contact": [
+                            {
+                                "EmailContact": "srilanakamrst@gmail.com"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Success": {
+            
+        },
+        "Rules": [
+            {
+                "FareBasisCode": [
+                    {
+                        "Code": "LCUD0ZBI/CON"
+                    }
+                ],
+                "AirlineID": "WS",
+                "FareCode": "749",
+                "Rule": [
+                    {
+                        "Category": "Duplicate Fare Info",
+                        "Text": "YTO-YVR       CXR-WS       FRI 10DEC21                     CAD\nTHE FOLLOWING CARRIERS ALSO PUBLISH FARES YTO-YVR:\nAC F8 H1 K0 TS U0 WG\n//SEE FQHELP FOR INFORMATION ABOUT THE NEW FARE DISPLAYS//\nALL FEES/TAXES/SVC CHARGES INCLUDED WHEN ITINERARY PRICED\nSURCHARGE FOR PAPER TICKET MAY BE ADDED WHEN ITIN PRICED\nWS-WSG/BASIC - BASIC\nV FARE BASIS     BK    FARE   TRAVEL-TICKET AP  MINMAX  RTG\n1  ¤LCUD0ZBI/CON   E?X    39.56 DR09MR T23SE 21/?  -/  -  502\nE31OC\n2  ¤LCUD0ZBI/CON   E?X    39.56 DR09MR T23SE 21/?  -/  -  502\nE31OC\n3  ¤LCUD0ZBI/CON   E?X    46.00 DR09MR T23SE 21/?  -/  -  502\nE31OC\n4  ¤LCUD0ZBI/CON   E?X    46.00 DR09MR T23SE 21/?  -/  -  502\nE31OC\n5  ¤LCUD0ZBI/CON   E?X   116.96 DR15MR T23SE 21/?  -/  -  502\n6  ¤LCUD0ZBI/CON   E?X   136.00 DR15MR T23SE 21/?  -/  -  502\n502*  TRAVEL MUST BE NONSTOP\n."
+                    }
+                ]
+            }
+        ]
+    }
+}

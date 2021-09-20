@@ -1,0 +1,34 @@
+{
+  "FareRulesRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": {
+              "EmailContact": {
+                "Address": "abc@tc.com"
+              }
+            }
+          },
+          "IATA_Number": "",
+          "Name": "kathir"
+        }
+      }
+    },
+    "Query": {
+      "Offer": [
+        {
+          "attributes": {
+            "OfferID": "98136821632130004141189762",
+            "ShoppingResponseId": "1632130003617614795"
+          }
+        }
+      ]
+    },
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "kathir"
+    }
+  }
+}

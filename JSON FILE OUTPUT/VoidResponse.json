@@ -1,0 +1,47 @@
+{
+    "AirTicketVoidRS": {
+        "Document": {
+            "Name": "Clarity NDC GATEWAY",
+            "ReferenceVersion": "1.2"
+        },
+        "Party": {
+            "Sender": {
+                "TravelAgencySender": {
+                    "Name": "MRST",
+                    "IATA_Number": "",
+                    "AgencyID": "MRST",
+                    "Contacts": {
+                        "Contact": [
+                            {
+                                "EmailContact": "srilanakamrst@gmail.com"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ShoppingResponseId": "1632130003617614795",
+        "Success": {
+            
+        },
+        "Result": {
+            "Status": "SUCCESS",
+            "ErrorMessage": "",
+            "TicketDetails": [
+                {
+                    "DocumentNumber": "8389540936683",
+                    "Status": "SUCCESS",
+                    "Msg": ""
+                },
+                {
+                    "DocumentNumber": "8389540936684",
+                    "Status": "SUCCESS",
+                    "Msg": ""
+                }
+            ],
+            "TktRequestId": "DL0JTJUA",
+            "ShoppingResponseId": "1632130003617614795",
+            "BookingStatus": "CANCELED"
+        }
+    }
+}
