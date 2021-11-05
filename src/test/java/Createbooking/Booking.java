@@ -11,6 +11,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -31,10 +32,11 @@ class Bookvariable
 
 }
 
-public class Booking 
+public class Booking
 {
 
 	@SuppressWarnings("unchecked")
+	@Test
 	public static void NormalBooking() throws IOException, ParseException
 	{
 		Bookvariable B = new Bookvariable();
@@ -69,26 +71,29 @@ public class Booking
 		B.PrincingofferId = jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("OfferID").asText();
 
 		System.out.println(B.PrincingofferId);
+		
+        try
+		{
+			B.Totalamount = (float) jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("TotalPrice").get("EquivCurrencyPrice").floatValue();
+            System.out.println(B.Totalamount);
+			
+			B.HST = (float) jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("OfferItem").get(0).get("FareDetail")
+					.get("Price").get("Taxes").get(4).get("EquivCurrencyPrice").floatValue();
+            System.out.println(B.HST);
+			double Amount = B.Totalamount + B.HST;
+			BigDecimal bd = new BigDecimal(Amount).setScale(2, RoundingMode.HALF_UP);
+	        B.Total = (float) bd.doubleValue();
+		}
+		catch (Exception e)
+		{
+			B.Totalamount = (float) jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("TotalPrice").get("EquivCurrencyPrice").floatValue();
+            System.out.println(B.Totalamount);
+            B.Total = B.Totalamount;
+		}
 
-		B.Totalamount = (float) jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("TotalPrice").get("EquivCurrencyPrice").floatValue();
+	   System.out.println(B.Total);
 
-		System.out.println(B.Totalamount);
-
-		B.HST = (float) jsonTree.get("OfferPriceRS").get("PricedOffer").get(0).get("OfferItem").get(0).get("FareDetail")
-				.get("Price").get("Taxes").get(4).get("EquivCurrencyPrice").floatValue();
-
-		System.out.println(B.HST);
-
-		double Amount = B.Totalamount + B.HST;
-
-		BigDecimal bd = new BigDecimal(Amount).setScale(2, RoundingMode.HALF_UP);
-        B.Total = (float) bd.doubleValue();
-
-        System.out.println(B.Total);
-
-
-
-        FileReader readerbooking = new FileReader(Location.BookingRequest);
+       FileReader readerbooking = new FileReader(Location.BookingRequest);
 
 		JSONParser jsonparserbooking = new JSONParser();
 

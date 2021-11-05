@@ -5,10 +5,9 @@
     <classes>
       <class name="Runnerclass.Running">
         <methods>
-          <include name="Holdconfirm"/>
-          <include name="Holdsearching"/>
-          <include name="Holdpricing"/>
-          <include name="Holdcreate"/>
+          <include name="Retrive"/>
+          <include name="Booking"/>
+          <include name="HoldTicketing"/>
         </methods>
       </class> <!-- Runnerclass.Running -->
     </classes>

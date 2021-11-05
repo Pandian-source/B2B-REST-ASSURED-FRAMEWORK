@@ -20,7 +20,7 @@
                 }
             }
         },
-        "ShoppingResponseId": "1632130003617614795",
+        "ShoppingResponseId": "1632406526531247497",
         "Success": {
             
         },
@@ -31,8 +31,8 @@
                         "PassengerQuantity": 2,
                         "MatchedOfferQuantity": 16,
                         "Lowest": {
-                            "BookingCurrencyPrice": 253.7,
-                            "EquivCurrencyPrice": 253.7
+                            "BookingCurrencyPrice": 241.1,
+                            "EquivCurrencyPrice": 241.1
                         },
                         "Highest": {
                             "BookingCurrencyPrice": 268.26,
@@ -41,7 +41,7 @@
                     },
                     "Offer": [
                         {
-                            "OfferID": "98136821632130004141189762",
+                            "OfferID": "98136821632406527499940772",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -56,8 +56,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -74,20 +74,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -143,8 +143,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -158,16 +158,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -180,8 +180,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -222,11 +222,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -257,7 +252,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004141189762",
+                                    "AirItineraryId": "98136821632406527499940772",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -267,7 +262,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004144778272",
+                            "OfferID": "98136821632406527503132062",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -282,8 +277,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -300,20 +295,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -369,8 +364,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -384,16 +379,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -406,8 +401,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -448,11 +443,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -483,7 +473,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004144778272",
+                                    "AirItineraryId": "98136821632406527503132062",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -493,7 +483,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004146856196",
+                            "OfferID": "98136821632406527504419717",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -508,8 +498,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -526,20 +516,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -595,8 +585,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -610,16 +600,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -632,8 +622,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -674,11 +664,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -709,7 +694,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004146856196",
+                                    "AirItineraryId": "98136821632406527504419717",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -719,7 +704,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004148847571",
+                            "OfferID": "98136821632406527506244706",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -734,8 +719,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -752,20 +737,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -821,8 +806,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -836,16 +821,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -858,8 +843,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -900,11 +885,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -935,7 +915,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004148847571",
+                                    "AirItineraryId": "98136821632406527506244706",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -945,7 +925,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004150237793",
+                            "OfferID": "98136821632406527508655604",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -960,8 +940,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -978,20 +958,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -1047,8 +1027,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -1062,16 +1042,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -1084,8 +1064,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -1126,11 +1106,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -1161,7 +1136,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004150237793",
+                                    "AirItineraryId": "98136821632406527508655604",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -1171,7 +1146,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004152919291",
+                            "OfferID": "98136821632406527510679861",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -1186,8 +1161,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -1204,20 +1179,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -1273,8 +1248,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -1288,16 +1263,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -1310,8 +1285,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -1352,11 +1327,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -1387,7 +1357,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004152919291",
+                                    "AirItineraryId": "98136821632406527510679861",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -1397,7 +1367,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004154423110",
+                            "OfferID": "98136821632406527512888958",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -1412,8 +1382,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -1430,20 +1400,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -1499,8 +1469,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -1514,16 +1484,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -1536,8 +1506,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -1578,11 +1548,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -1613,7 +1578,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004154423110",
+                                    "AirItineraryId": "98136821632406527512888958",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -1623,7 +1588,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136821632130004156261466",
+                            "OfferID": "98136821632406527513417565",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -1638,8 +1603,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -1656,20 +1621,20 @@
                             },
                             "BookingFeeInfo": {
                                 "FeeType": "AIF",
-                                "BookingCurrencyPrice": 2,
-                                "EquivCurrencyPrice": 2
+                                "BookingCurrencyPrice": 0,
+                                "EquivCurrencyPrice": 0
                             },
                             "TotalPrice": {
-                                "BookingCurrencyPrice": 253.7,
-                                "EquivCurrencyPrice": 253.7
+                                "BookingCurrencyPrice": 241.1,
+                                "EquivCurrencyPrice": 241.1
                             },
                             "BasePrice": {
-                                "BookingCurrencyPrice": 91.12,
-                                "EquivCurrencyPrice": 91.12
+                                "BookingCurrencyPrice": 79.12,
+                                "EquivCurrencyPrice": 79.12
                             },
                             "TaxPrice": {
-                                "BookingCurrencyPrice": 162.58,
-                                "EquivCurrencyPrice": 162.58
+                                "BookingCurrencyPrice": 161.98,
+                                "EquivCurrencyPrice": 161.98
                             },
                             "Commission": {
                                 "AgencyCommission": {
@@ -1725,8 +1690,8 @@
                                     "PassengerQuantity": 2,
                                     "TotalPriceDetail": {
                                         "TotalAmount": {
-                                            "BookingCurrencyPrice": 253.7,
-                                            "EquivCurrencyPrice": 253.7
+                                            "BookingCurrencyPrice": 241.1,
+                                            "EquivCurrencyPrice": 241.1
                                         }
                                     },
                                     "Service": [
@@ -1740,16 +1705,16 @@
                                         "PassengerRefs": "ADT1 ADT2",
                                         "Price": {
                                             "TotalAmount": {
-                                                "BookingCurrencyPrice": 253.7,
-                                                "EquivCurrencyPrice": 253.7
+                                                "BookingCurrencyPrice": 241.1,
+                                                "EquivCurrencyPrice": 241.1
                                             },
                                             "BaseAmount": {
-                                                "BookingCurrencyPrice": 91.12,
-                                                "EquivCurrencyPrice": 91.12
+                                                "BookingCurrencyPrice": 79.12,
+                                                "EquivCurrencyPrice": 79.12
                                             },
                                             "TaxAmount": {
-                                                "BookingCurrencyPrice": 162.58,
-                                                "EquivCurrencyPrice": 162.58
+                                                "BookingCurrencyPrice": 161.98,
+                                                "EquivCurrencyPrice": 161.98
                                             },
                                             "Commission": {
                                                 "AgencyCommission": {
@@ -1762,8 +1727,8 @@
                                                 }
                                             },
                                             "BookingFee": {
-                                                "BookingCurrencyPrice": 2,
-                                                "EquivCurrencyPrice": 2
+                                                "BookingCurrencyPrice": 0,
+                                                "EquivCurrencyPrice": 0
                                             },
                                             "PortalCharges": {
                                                 "Markup": {
@@ -1804,11 +1769,6 @@
                                                     "TaxCode": "SQ",
                                                     "BookingCurrencyPrice": 60,
                                                     "EquivCurrencyPrice": 60
-                                                },
-                                                {
-                                                    "TaxCode": "HST",
-                                                    "BookingCurrencyPrice": 0.6,
-                                                    "EquivCurrencyPrice": 0.6
                                                 }
                                             ]
                                         }
@@ -1839,7 +1799,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136821632130004156261466",
+                                    "AirItineraryId": "98136821632406527513417565",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -1849,7 +1809,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004380518276",
+                            "OfferID": "98136811632406526964935365",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -1864,8 +1824,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -2065,7 +2025,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004380518276",
+                                    "AirItineraryId": "98136811632406526964935365",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -2075,7 +2035,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004382892086",
+                            "OfferID": "98136811632406526969768293",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -2090,8 +2050,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -2291,7 +2251,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004382892086",
+                                    "AirItineraryId": "98136811632406526969768293",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -2301,7 +2261,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004384376523",
+                            "OfferID": "98136811632406526971227903",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -2316,8 +2276,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -2517,7 +2477,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004384376523",
+                                    "AirItineraryId": "98136811632406526971227903",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -2527,7 +2487,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004385603178",
+                            "OfferID": "98136811632406526974163023",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -2542,8 +2502,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -2743,7 +2703,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004385603178",
+                                    "AirItineraryId": "98136811632406526974163023",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -2753,7 +2713,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004387689082",
+                            "OfferID": "98136811632406526975237628",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -2768,8 +2728,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -2969,7 +2929,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004387689082",
+                                    "AirItineraryId": "98136811632406526975237628",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -2979,7 +2939,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004389284823",
+                            "OfferID": "98136811632406526977749949",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -2994,8 +2954,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -3195,7 +3155,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004389284823",
+                                    "AirItineraryId": "98136811632406526977749949",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -3205,7 +3165,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004390255887",
+                            "OfferID": "98136811632406526979388990",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -3220,8 +3180,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -3421,7 +3381,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004390255887",
+                                    "AirItineraryId": "98136811632406526979388990",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1
@@ -3431,7 +3391,7 @@
                             "FopRef": "FOP_9_9_368_482_WS_PRI"
                         },
                         {
-                            "OfferID": "98136811632130004392867238",
+                            "OfferID": "98136811632406526981771874",
                             "Owner": "WS",
                             "OwnerName": "Westjet",
                             "TicketType": "Single",
@@ -3446,8 +3406,8 @@
                             "Eticket": "true",
                             "AllowHold": "Y",
                             "TimeLimits": {
-                                "OfferExpirationDateTime": "2021-09-20T11:26:44",
-                                "PaymentExpirationDateTime": "2021-09-22 03:00:00"
+                                "OfferExpirationDateTime": "2021-09-23T16:15:29",
+                                "PaymentExpirationDateTime": "2021-09-24 03:00:00"
                             },
                             "PassportRequired": "N",
                             "BookingCurrencyCode": "CAD",
@@ -3647,7 +3607,7 @@
                             ],
                             "SplitPaymentInfo": [
                                 {
-                                    "AirItineraryId": "98136811632130004392867238",
+                                    "AirItineraryId": "98136811632406526981771874",
                                     "MultipleFop": "Y",
                                     "MaxCardsPerPax": 2,
                                     "MaxCardsPerPaxInMFOP": 1

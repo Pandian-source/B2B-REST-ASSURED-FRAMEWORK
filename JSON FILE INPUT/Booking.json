@@ -15,7 +15,7 @@
         ],
         "Offer": [
           {
-            "OfferID": "98136821632130004141189762"
+            "OfferID": "98136821632406527499940772"
           }
         ],
         "ServiceList": []
@@ -28,7 +28,7 @@
           "Type": "CHECK",
           "PassengerID": "ALL",
           "OnflyMarkup": "0.00",
-          "Amount": 429.22,
+          "Amount": 241.1,
           "ChequeNumber": "95636",
           "OnflyDiscount": "0.00"
         }
@@ -147,7 +147,7 @@
         ]
       }
     },
-    "OfferResponseId": "1632130016010450695",
+    "OfferResponseId": "1632406535277831427",
     "MetaData": {
       "Tracking": "Y",
       "PassengerMetadata": {
@@ -178,7 +178,7 @@
       }
     },
     "PromoDiscount": 0,
-    "ShoppingResponseId": "1632130003617614795",
+    "ShoppingResponseId": "1632406526531247497",
     "BookingType": "BOOK",
     "SeatResponseId": ""
   }

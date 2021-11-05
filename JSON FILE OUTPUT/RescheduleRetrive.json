@@ -1,5 +1,5 @@
 {
-    "OfferPriceRS": {
+    "OrderViewRS": {
         "Document": {
             "Name": "Clarity NDC GATEWAY",
             "ReferenceVersion": "1.2"
@@ -20,17 +20,32 @@
                 }
             }
         },
-        "ShoppingResponseId": "1632406526531247497",
-        "OfferResponseId": "1632406535277831427",
+        "ShoppingResponseId": "1632132866187276599",
         "Success": {
             
         },
-        "PricedOffer": [
+        "Payments": {
+            "Payment": [
+                {
+                    "Type": "CHECK",
+                    "PassengerID": "ALL",
+                    "Amount": 127.15,
+                    "ChequeNumber": "985632"
+                }
+            ]
+        },
+        "Order": [
             {
-                "OfferID": "98136821632406527499940772",
+                "OrderID": "DJ63VXPG",
+                "GdsBookingReference": "GGWCOG",
+                "OrderStatus": "BOOKED",
+                "PaymentStatus": "PAID",
+                "TicketStatus": "TICKETED",
+                "NeedToTicket": "N",
+                "OfferID": "98136821632132866907530348",
                 "Owner": "WS",
                 "OwnerName": "Westjet",
-                "IsBrandedFare": "N",
+                "IsBrandedFare": "Y",
                 "BrandedFareOptions": [
                     
                 ],
@@ -38,13 +53,10 @@
                     
                 ],
                 "IsAdditionalCabinType": "N",
-                "Eticket": "true",
-                "AllowHold": "Y",
+                "Eticket": "",
                 "TimeLimits": {
-                    "OfferExpirationDateTime": "2021-09-23T16:15:42",
-                    "PaymentExpirationDateTime": "2021-09-24 03:00:00"
+                    "OfferExpirationDateTime": "2021-09-20T13:12:27"
                 },
-                "PassportRequired": "N",
                 "BookingCurrencyCode": "CAD",
                 "EquivCurrencyCode": "CAD",
                 "HstPercentage": 5,
@@ -58,26 +70,26 @@
                     }
                 },
                 "BookingFeeInfo": {
-                    "FeeType": "AIF",
+                    "FeeType": "",
                     "BookingCurrencyPrice": 0,
                     "EquivCurrencyPrice": 0
                 },
                 "TotalPrice": {
-                    "BookingCurrencyPrice": 241.1,
-                    "EquivCurrencyPrice": 241.1
+                    "BookingCurrencyPrice": 126.85,
+                    "EquivCurrencyPrice": 126.85
                 },
                 "BasePrice": {
-                    "BookingCurrencyPrice": 79.12,
-                    "EquivCurrencyPrice": 79.12
+                    "BookingCurrencyPrice": 45.56,
+                    "EquivCurrencyPrice": 45.56
                 },
                 "TaxPrice": {
-                    "BookingCurrencyPrice": 161.98,
-                    "EquivCurrencyPrice": 161.98
+                    "BookingCurrencyPrice": 81.29,
+                    "EquivCurrencyPrice": 81.29
                 },
                 "Commission": {
                     "AgencyCommission": {
-                        "BookingCurrencyPrice": 10,
-                        "EquivCurrencyPrice": 10
+                        "BookingCurrencyPrice": 5,
+                        "EquivCurrencyPrice": 5
                     },
                     "AgencyYqCommission": {
                         "BookingCurrencyPrice": 0,
@@ -96,6 +108,25 @@
                     "Discount": {
                         "BookingCurrencyPrice": 0,
                         "EquivCurrencyPrice": 0
+                    }
+                },
+                "AgentMarkupInfo": {
+                    "OnflyMarkup": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "OnflyDiscount": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "OnflyHst": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0
+                    },
+                    "PromoDiscount": {
+                        "BookingCurrencyPrice": 0,
+                        "EquivCurrencyPrice": 0,
+                        "PromoCode": ""
                     }
                 },
                 "Penalty": {
@@ -120,44 +151,47 @@
                         }
                     }
                 },
+                "PaxSeatInfo": [
+                    
+                ],
                 "OfferItem": [
                     {
                         "OfferItemID": "OFFERITEMID1",
                         "Refundable": "true",
                         "PassengerType": "ADT",
-                        "PassengerQuantity": 2,
+                        "PassengerQuantity": 1,
                         "TotalPriceDetail": {
                             "TotalAmount": {
-                                "BookingCurrencyPrice": 241.1,
-                                "EquivCurrencyPrice": 241.1
+                                "BookingCurrencyPrice": 126.85,
+                                "EquivCurrencyPrice": 126.85
                             }
                         },
                         "Service": [
                             {
                                 "ServiceID": "SV1",
-                                "PassengerRefs": "ADT1 ADT2",
+                                "PassengerRefs": "ADT1",
                                 "FlightRefs": "Flight1"
                             }
                         ],
                         "FareDetail": {
-                            "PassengerRefs": "ADT1 ADT2",
+                            "PassengerRefs": "ADT1",
                             "Price": {
                                 "TotalAmount": {
-                                    "BookingCurrencyPrice": 241.1,
-                                    "EquivCurrencyPrice": 241.1
+                                    "BookingCurrencyPrice": 126.85,
+                                    "EquivCurrencyPrice": 126.85
                                 },
                                 "BaseAmount": {
-                                    "BookingCurrencyPrice": 79.12,
-                                    "EquivCurrencyPrice": 79.12
+                                    "BookingCurrencyPrice": 45.56,
+                                    "EquivCurrencyPrice": 45.56
                                 },
                                 "TaxAmount": {
-                                    "BookingCurrencyPrice": 161.98,
-                                    "EquivCurrencyPrice": 161.98
+                                    "BookingCurrencyPrice": 81.28999999999999,
+                                    "EquivCurrencyPrice": 81.28999999999999
                                 },
                                 "Commission": {
                                     "AgencyCommission": {
-                                        "BookingCurrencyPrice": 10,
-                                        "EquivCurrencyPrice": 10
+                                        "BookingCurrencyPrice": 5,
+                                        "EquivCurrencyPrice": 5
                                     },
                                     "AgencyYqCommission": {
                                         "BookingCurrencyPrice": 0,
@@ -185,23 +219,28 @@
                                 "Taxes": [
                                     {
                                         "TaxCode": "RC",
-                                        "BookingCurrencyPrice": 27.74,
-                                        "EquivCurrencyPrice": 27.74
+                                        "BookingCurrencyPrice": 13.87,
+                                        "EquivCurrencyPrice": 13.87
                                     },
                                     {
                                         "TaxCode": "SQ",
-                                        "BookingCurrencyPrice": 60,
-                                        "EquivCurrencyPrice": 60
+                                        "BookingCurrencyPrice": 30,
+                                        "EquivCurrencyPrice": 30
                                     },
                                     {
                                         "TaxCode": "CA",
-                                        "BookingCurrencyPrice": 14.24,
-                                        "EquivCurrencyPrice": 14.24
+                                        "BookingCurrencyPrice": 7.12,
+                                        "EquivCurrencyPrice": 7.12
                                     },
                                     {
                                         "TaxCode": "YQ",
-                                        "BookingCurrencyPrice": 60,
-                                        "EquivCurrencyPrice": 60
+                                        "BookingCurrencyPrice": 30,
+                                        "EquivCurrencyPrice": 30
+                                    },
+                                    {
+                                        "TaxCode": "HST",
+                                        "BookingCurrencyPrice": 0.3,
+                                        "EquivCurrencyPrice": 0.3
                                     }
                                 ]
                             }
@@ -226,16 +265,16 @@
                 "BaggageAllowance": [
                     {
                         "SegmentRefs": "Segment1",
-                        "PassengerRefs": "T1 T2",
+                        "PassengerRefs": "ADT1",
                         "BaggageAllowanceRef": "Bag1"
                     }
                 ],
                 "SplitPaymentInfo": [
                     {
-                        "AirItineraryId": "98136821632406527499940772",
-                        "MultipleFop": "Y",
-                        "MaxCardsPerPax": 2,
-                        "MaxCardsPerPaxInMFOP": 1
+                        "AirItineraryId": "98136821632132866907530348",
+                        "MultipleFop": "N",
+                        "MaxCardsPerPax": 0,
+                        "MaxCardsPerPaxInMFOP": 0
                     }
                 ],
                 "BookingToEquivExRate": 1,
@@ -246,21 +285,36 @@
             "PassengerList": {
                 "Passengers": [
                     {
-                        "PassengerID": "T1",
+                        "attributes": {
+                            "PassengerID": "ADT1"
+                        },
+                        "PassengerID": "ADT1",
+                        "PTC": "ADT",
+                        "BirthDate": "1997-08-19",
+                        "NameTitle": "Mr",
+                        "FirstName": "Harsh",
+                        "MiddleName": "",
+                        "LastName": "Singh",
+                        "TravelDocument": {
+                            "DocumentNumber": "9658745",
+                            "ExpiryDate": "2024-01-01",
+                            "IssuingCountry": "CA",
+                            "DocumentType": ""
+                        },
+                        "Preference": {
+                            "WheelChairPreference": {
+                                "Reason": ""
+                            },
+                            "SeatPreference": "any"
+                        },
                         "LoyaltyProgramAccount": [
                             {
-                                "AirlineID": "EK",
-                                "AccountNumber": "45677"
+                                "ProgramID": "WS",
+                                "AirlineID": "WS",
+                                "AccountNumber": "8349843875"
                             }
                         ],
-                        "Individual": {
-                            "Birthdate": "1997-04-15"
-                        },
-                        "PTC": "ADT"
-                    },
-                    {
-                        "PassengerID": "T2",
-                        "PTC": "ADT"
+                        "ContactInfoRef": "CTC1"
                     }
                 ]
             },
@@ -311,15 +365,15 @@
                             "FlightNumber": "723"
                         },
                         "Equipment": {
-                            "AircraftCode": "73H",
+                            "AircraftCode": "Boeing 737-800 (winglets) pax",
                             "Name": "Boeing 737-800 (winglets) pax"
                         },
                         "Code": {
-                            "MarriageGroup": "O"
+                            "MarriageGroup": ""
                         },
                         "FlightDetail": {
                             "FlightDuration": {
-                                "Value": "5 H 14 M"
+                                "Value": "5 Hrs 14 Min"
                             },
                             "Stops": {
                                 "Value": 0
@@ -327,7 +381,7 @@
                             "InterMediate": [
                                 
                             ],
-                            "AirMilesFlown": 2085
+                            "AirMilesFlown": "2085"
                         },
                         "BrandId": "BASIC"
                     }
@@ -359,8 +413,8 @@
                 "PriceClass": [
                     {
                         "PriceClassID": "PCR_1",
-                        "Name": "",
-                        "Code": "",
+                        "Name": "Basic",
+                        "Code": "Basic",
                         "Descriptions": {
                             "Description": [
                                 
@@ -547,8 +601,34 @@
                 }
             ]
         },
+        "TicketDocInfos": {
+            "TicketDocInfo": [
+                {
+                    "TicketDocument": {
+                        "TicketDocNbr": "8389540936685",
+                        "Type": "TKT"
+                    },
+                    "PassengerReference": "ADT1",
+                    "GdsBookingReference": "GGWCOG"
+                }
+            ]
+        },
         "MetaData": {
-            
+            "PassengerMetadata": {
+                "SpecialServiceRequest": [
+                    {
+                        "PassengerID": "ADT1",
+                        "Origin": "YYZ",
+                        "Destination": "YVR",
+                        "DepartureDateTime": "2021-12-10",
+                        "MarketingFlightNumber": " ",
+                        "MarketingCarrier": "WS",
+                        "SsrType": "SSR",
+                        "SsrCode": "Free Meals",
+                        "FreeText": "Pandian"
+                    }
+                ]
+            }
         }
     }
 }

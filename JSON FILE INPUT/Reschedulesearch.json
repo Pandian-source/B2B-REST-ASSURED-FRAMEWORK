@@ -1,0 +1,81 @@
+{
+  "OrderReshopRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "kalaiavis@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "Flight travels"
+        }
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "NameTitle": "Mr",
+            "PassengerID": "T1",
+            "FirstName": "Harsh",
+            "LastName": "Singh",
+            "MiddleName": "",
+            "DocumentNumber": "8389540936685",
+            "PTC": "ADT"
+          }
+        ]
+      }
+    },
+    "Query": {
+      "Reshop": {
+        "OrderServicing": {
+          "Add": {
+            "FlightQuery": {
+              "OriginDestinations": {
+                "OriginDestination": [
+                  {
+                    "PreviousDeparture": {
+                      "AirportCode": "YYZ",
+                      "Date": "2021-12-10"
+                    },
+                    "PreviousCabinType": "E",
+                    "PreviousArrival": {
+                      "AirportCode": "YVR"
+                    },
+                    "CabinType": "Y",
+                    "Departure": {
+                      "AirportCode": "YYZ",
+                      "Date": "2021-12-08"
+                    },
+                    "Arrival": {
+                      "AirportCode": "YVR"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "OrderID": "DJ63VXPG",
+      "GdsBookingReference": [
+        "GGWCOG"
+      ]
+    },
+    "Preference": {
+      "CabinType": "Y"
+    },
+    "MetaData": {
+      "TraceId": "161777799749"
+    },
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "Flight travels"
+    }
+  }
+}

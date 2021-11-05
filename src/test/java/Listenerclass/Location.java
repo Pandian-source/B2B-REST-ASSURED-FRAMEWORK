@@ -51,5 +51,13 @@ public class Location {
 	public static String HoldIssueTicketRQ = "./JSON FILE INPUT/HoldticketIssue.json";
 
 	public static String HoldIssueTicketRS = "./JSON FILE OUTPUT/HoldticketIssue.json";
+	
+	public static String RescheduleRetriveRQ = "./JSON FILE INPUT/RescheduleRetrive.json";
+	
+	public static String RescheduleRetriveRS = "./JSON FILE OUTPUT/RescheduleRetrive.json";
+	
+    public static String RescheduleSearchRQ = "./JSON FILE INPUT/Reschedulesearch.json";
+	
+	public static String RescheduleSearchRS = "./JSON FILE OUTPUT/Reschedulesearch.json";
 
 }

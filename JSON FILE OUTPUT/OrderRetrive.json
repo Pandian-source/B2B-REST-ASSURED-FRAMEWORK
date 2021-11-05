@@ -38,9 +38,9 @@
             {
                 "OrderID": "N1SFB8VT",
                 "GdsBookingReference": "DNHWLB",
-                "OrderStatus": "BOOKED",
-                "PaymentStatus": "PAID",
-                "TicketStatus": "NOT TICKETED",
+                "OrderStatus": "CANCELED",
+                "PaymentStatus": "NA",
+                "TicketStatus": "NA",
                 "NeedToTicket": "N",
                 "OfferID": "98136821632130004141189762",
                 "Owner": "WS",
@@ -55,7 +55,7 @@
                 "IsAdditionalCabinType": "N",
                 "Eticket": "",
                 "TimeLimits": {
-                    "OfferExpirationDateTime": "2021-09-20T11:27:29"
+                    "OfferExpirationDateTime": "2021-09-23T15:59:19"
                 },
                 "BookingCurrencyCode": "CAD",
                 "EquivCurrencyCode": "CAD",
@@ -630,6 +630,26 @@
                         }
                     },
                     "FopKey": "FOP_9_9_368_482_WS_PRI"
+                }
+            ]
+        },
+        "TicketDocInfos": {
+            "TicketDocInfo": [
+                {
+                    "TicketDocument": {
+                        "TicketDocNbr": "8389540936683",
+                        "Type": "TKT"
+                    },
+                    "PassengerReference": "ADT1",
+                    "GdsBookingReference": "DNHWLB"
+                },
+                {
+                    "TicketDocument": {
+                        "TicketDocNbr": "8389540936684",
+                        "Type": "TKT"
+                    },
+                    "PassengerReference": "ADT2",
+                    "GdsBookingReference": "DNHWLB"
                 }
             ]
         },

@@ -20,28 +20,11 @@
                 }
             }
         },
-        "ShoppingResponseId": "1632130003617614795",
-        "Success": {
-            
-        },
-        "Result": {
-            "Status": "SUCCESS",
-            "ErrorMessage": "",
-            "TicketDetails": [
-                {
-                    "DocumentNumber": "8389540936683",
-                    "Status": "SUCCESS",
-                    "Msg": ""
-                },
-                {
-                    "DocumentNumber": "8389540936684",
-                    "Status": "SUCCESS",
-                    "Msg": ""
-                }
-            ],
-            "TktRequestId": "DL0JTJUA",
-            "ShoppingResponseId": "1632130003617614795",
-            "BookingStatus": "CANCELED"
+        "ShoppingResponseId": "2021-09-23",
+        "Errors": {
+            "Error": {
+                
+            }
         }
     }
 }

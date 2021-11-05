@@ -42,14 +42,14 @@
     "Query": {
       "Offer": [
         {
-          "OfferID": "98136821632130004141189762"
+          "OfferID": "98136821632406527499940772"
         }
       ]
     },
     "MetaData": {
       "TraceId": "161777799749"
     },
-    "ShoppingResponseId": "1632130003617614795",
+    "ShoppingResponseId": "1632406526531247497",
     "Document": {
       "ReferenceVersion": "1.0",
       "Name": "Skyroute B2B Portal"
